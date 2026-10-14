@@ -8,6 +8,7 @@ enum class Classification {
 };
 
 class FilterAgent {
+public:
 	FilterAgent(const std::vector<std::string>& allowedList,
 		const std::vector<std::string>& restrictedList,
 		const std::vector<std::string>& badWordList
